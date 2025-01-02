@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "8a7c7bf9-9f78-3188-ac0e-16eff0dc9061",
+    "name": "Coffeent",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5b5dddeb-ecb1-4d1a-81a4-222a52d35f53",
+    "name": "coffent",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
