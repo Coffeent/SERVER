@@ -768,6 +768,7 @@
       "bread": "2025-01-02 02:27:03 +0000",
       "rotten_flesh": "2025-01-02 02:07:51 +0000",
       "dried_kelp": "2025-01-02 02:38:05 +0000",
+      "beef": "2025-01-02 19:34:21 +0000",
       "beetroot": "2025-01-02 02:25:22 +0000"
     },
     "done": false
@@ -1639,6 +1640,42 @@
   "doggytalents:recipes/building_blocks/food_bowl": {
     "criteria": {
       "has_iron_ingot": "2025-01-02 17:52:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2025-01-02 18:54:27 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/leather_jacket": {
+    "criteria": {
+      "has_leather": "2025-01-02 19:33:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/plague_doctor_mask": {
+    "criteria": {
+      "has_leather": "2025-01-02 19:33:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/treat_bag": {
+    "criteria": {
+      "has_leather": "2025-01-02 19:33:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/tantan_cape": {
+    "criteria": {
+      "has_leather": "2025-01-02 19:33:04 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/cape_coloured": {
+    "criteria": {
+      "has_leather": "2025-01-02 19:33:04 +0000"
     },
     "done": true
   },

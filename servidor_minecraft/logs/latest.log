@@ -1,8 +1,10 @@
-[17:50:51] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
-[17:50:52] [main/WARN]: Warnings were found!
+[21:11:48] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[21:11:48] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.1+1.0 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.3 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[17:50:52] [main/INFO]: Loading 154 mods:
+[21:11:48] [main/INFO]: Loading 170 mods:
 	- accessories 1.1.0-beta.19+1.21.1
 	- advancednetherite 2.2.1-1.21.1
 	- amendments 1.21-1.2.22
@@ -18,6 +20,7 @@
 	- backpacked 3.0.0-beta.10
 	- balm-fabric 21.0.22
 	   \-- kuma_api 21.0.5-SNAPSHOT
+	- betterchunkloading 1.21-5.2
 	- betterdeserttemples 1.21.1-Fabric-4.1.2
 	   \-- org_reflections_reflections 0.10.2
 	- betterdungeons 1.21.1-Fabric-5.1.4
@@ -37,6 +40,7 @@
 	- betterwitchhuts 1.21.1-Fabric-4.1.1
 	   \-- org_reflections_reflections 0.10.2
 	- bookshelf 21.1.29
+	- chunksending 1.21-2.8
 	- cloth-config 15.0.140
 	   \-- cloth-basic-math 0.6.1
 	- clumps 19.0.0.1
@@ -44,6 +48,7 @@
 	- collective 7.87
 	- connectivity 1.21-6.4
 	- cupboard 1.21-2.7
+	- debugify 1.21.1+1.0
 	- doggytalents 1.18.38
 	- dummmmmmy 1.21-2.0.6
 	- easyanvils 21.1.0
@@ -148,6 +153,7 @@
 	        |-- mixinextras 0.5.0-beta.3
 	        |-- porting_lib_core 3.1.0-beta.47.hotfix.2+1.21.1
 	        \-- porting_lib_gametest 3.1.0-beta.47.hotfix.2+1.21.1
+	- fastasyncworldsave 1.21-2.1
 	- ferritecore 7.0.2-hotfix
 	- forgeconfigapiport 21.1.3
 	   |-- com_electronwill_night-config_core 3.8.0
@@ -164,12 +170,15 @@
 	   |-- ar_com_hjg_pngj 2.1.0
 	   |-- commonnetworking 1.0.16-1.21.1
 	   \-- journeymap-api-fabric 2.0.0-1.21.1-SNAPSHOT
-	- lithium 0.14.3-snapshot+mc1.21.1-build.92
 	- merenc 4.1
 	- minecraft 1.21.1
 	- modernfix 5.20.0+mc1.21.1
 	- monolib 1.4.1
 	- moonlight 1.21-2.17.12
+	- nerb 0.4.1
+	- noisium 2.3.0+mc1.21-1.21.1
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
 	- onlyhammers 1.21.1-0.2
 	- owo 0.12.15+1.21
 	   |-- blue_endless_jankson 1.2.2
@@ -203,6 +212,15 @@
 	- treeharvester 9.1
 	- trop 24.8.29
 	- waystones 21.1.5
+	- yet_another_config_lib_v3 3.6.2+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
 	- yungsapi 1.21.1-Fabric-5.1.3
 	   |-- org_javassist_javassist 3.29.2-GA
 	   \-- org_reflections_reflections 0.10.2
@@ -210,173 +228,161 @@
 	   \-- org_reflections_reflections 0.10.2
 	- yungsextras 1.21.1-Fabric-5.1.1
 	   \-- org_reflections_reflections 0.10.2
-[17:50:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/SERVER/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:50:52] [main/INFO]: Compatibility level set to JAVA_17
-[17:50:52] [main/INFO]: Compatibility level set to JAVA_21
-[17:50:52] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[17:50:53] [main/WARN]: Mod 'supplementaries' attempted to override option 'mixins.block.moving_block_shapes', which doesn't exist, ignoring
-[17:50:53] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[17:50:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[17:50:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[17:50:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[17:50:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[17:50:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[17:50:53] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
-[17:50:53] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
-[17:50:53] [main/INFO]: Applying Nashorn fix
-[17:50:53] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:50:53] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[17:50:53] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[17:50:53] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[17:50:53] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[17:50:54] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[17:50:54] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[17:50:54] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[17:50:54] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[17:50:54] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.PistonMovingBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[17:50:54] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
-[17:50:54] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[17:50:54] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[17:50:54] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[17:50:54] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[17:50:54] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[17:50:54] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
-[17:50:54] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[17:50:54] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[17:50:54] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[17:50:55] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[17:50:55] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[17:50:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
-[17:50:56] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17:51:01] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[17:51:07] [main/INFO]: Vanilla bootstrap took 10750 milliseconds
-[17:51:08] [main/INFO]: Registered Trinkets Reloaded Listeners
-[17:51:08] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[17:51:08] [main/INFO]: Loaded config amendments-common.json
-[17:51:08] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
-[17:51:08] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
-[17:51:08] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
-[17:51:08] [main/ERROR]: No data fixer registered for artifacts:mimic
-[17:51:08] [main/INFO]: Reflections took 116 ms to scan 1 urls, producing 3 keys and 35 values
-[17:51:08] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[17:51:08] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[17:51:09] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:09] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:09] [main/INFO]: Reflections took 10 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:09] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:09] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:09] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
-[17:51:10] [main/INFO]: Loading Collective version 7.87.
-[17:51:10] [main/INFO]: Connectivity initialized
-[17:51:10] [main/INFO]: Loaded config for: cupboard.json
-[17:51:10] [main/INFO]: Loaded config dummmmmmy-common.json
-[17:51:10] [main/WARN]: Lithium detected. MmmMmmMmmMmm scarecrow mode might not work well due to a lithium bug (the mod doesnt have a way to add goals to new entities)
-[17:51:10] [main/INFO]: Constructing common components for easyanvils:main
-[17:51:10] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[17:51:11] [main/INFO]: Constructing common components for easymagic:main
-[17:51:11] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[17:51:11] [main/INFO]: Constructing common components for easyshulkerboxes:main
-[17:51:11] [main/INFO]: ExpandAbility here, who dis?
-[17:51:11] [main/ERROR]: No data fixer registered for handcrafted
-[17:51:12] [main/INFO]: Constructing common components for iteminteractions:main
-[17:51:12] [main/INFO]: Initializing ServerSide Packet Registries
-[17:51:12] [main/INFO]: Definitely not up to no good
-[17:51:12] [main/INFO]: [STDOUT]: All 10 have been set properly
-[17:51:12] [main/INFO]: chyzman: No sound or Ender Dragon leakage. Although Ender Dragon sound leakage is still a thing
-[17:51:12] [main/INFO]: Constructing common components for puzzleslib:main
-[17:51:12] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
-[17:51:12] [main/INFO]: Loaded config supplementaries-common.json
-[17:51:13] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:13] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
-[17:51:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:13] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:13] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:13] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
-[17:51:14] [main/INFO]: Initialized block sets in 27ms
-[17:51:14] [main/ERROR]: No data fixer registered for falling_lantern
-[17:51:14] [main/ERROR]: No data fixer registered for target_dummy
-[17:51:14] [main/ERROR]: No data fixer registered for dispenser_minecart
-[17:51:14] [main/ERROR]: No data fixer registered for falling_urn
-[17:51:14] [main/ERROR]: No data fixer registered for falling_ash
-[17:51:14] [main/ERROR]: No data fixer registered for falling_sack
-[17:51:14] [main/ERROR]: No data fixer registered for brick_projectile
-[17:51:14] [main/ERROR]: No data fixer registered for slimeball_projectile
-[17:51:14] [main/ERROR]: No data fixer registered for bomb
-[17:51:14] [main/ERROR]: No data fixer registered for cannonball
-[17:51:14] [main/ERROR]: No data fixer registered for rope_arrow
-[17:51:14] [main/ERROR]: No data fixer registered for slingshot_projectile
-[17:51:14] [main/INFO]: Loaded config sawmill-common.json
-[17:51:14] [main/INFO]: Initialized color sets in 46ms
-[17:51:14] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 38, 3, 1] ms
-[17:51:15] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:51:15] [main/INFO]: Found new data pack artifacts, loading it automatically
-[17:51:15] [main/INFO]: Found new data pack balm-fabric, loading it automatically
-[17:51:15] [main/INFO]: Found new data pack doggytalents, loading it automatically
-[17:51:15] [main/INFO]: Found new data pack tclayer, loading it automatically
-[17:51:15] [main/INFO]: Found new data pack waystones, loading it automatically
-[17:51:15] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
-[17:51:15] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 41 ms
-[17:51:15] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 31 ms
-[17:51:16] [main/INFO]: Loaded config for: connectivity.json
-[17:51:16] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:16] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:17] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
+[21:11:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/SERVER/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:11:49] [main/INFO]: Compatibility level set to JAVA_17
+[21:11:49] [main/INFO]: Compatibility level set to JAVA_21
+[21:11:49] [main/WARN]: Reference map 'doggytalents.refmap.json' for doggytalents.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:49] [main/WARN]: Reference map 'easyshulkerboxes.common.refmap.json' for easyshulkerboxes.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:49] [main/WARN]: Reference map 'easyshulkerboxes.fabric.refmap.json' for easyshulkerboxes.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/INFO]: Loaded configuration file for ModernFix 5.20.0+mc1.21.1: 56 options available, 0 override(s) found
+[21:11:50] [main/INFO]: Applying Nashorn fix
+[21:11:50] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:11:50] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[21:11:50] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[21:11:50] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[21:11:50] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[21:11:50] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[21:11:50] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[21:11:50] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[21:11:50] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[21:11:51] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[21:11:51] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[21:11:51] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[21:11:51] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[21:11:51] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+[21:11:51] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[21:11:51] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[21:11:51] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[21:11:51] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[21:11:51] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[21:11:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.3).
+[21:11:52] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[21:12:03] [main/INFO]: Vanilla bootstrap took 10071 milliseconds
+[21:12:03] [main/INFO]: Registered Trinkets Reloaded Listeners
+[21:12:03] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[21:12:03] [main/INFO]: Loaded config amendments-common.json
+[21:12:03] [main/INFO]: Registering C2S receiver with id artifacts:double_jump
+[21:12:03] [main/INFO]: Registering C2S receiver with id artifacts:update_swimming
+[21:12:03] [main/INFO]: Registering C2S receiver with id artifacts:toggle_artifacts
+[21:12:03] [main/ERROR]: No data fixer registered for artifacts:mimic
+[21:12:04] [main/INFO]: Reflections took 125 ms to scan 1 urls, producing 3 keys and 35 values
+[21:12:04] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[21:12:04] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[21:12:04] [main/INFO]: betterchunkloading mod initialized
+[21:12:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 20 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:04] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:04] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:04] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:04] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[21:12:05] [main/INFO]: Loaded config for: chunksending.json
+[21:12:05] [main/INFO]: chunksending mod initialized
+[21:12:05] [main/INFO]: Loading Collective version 7.87.
+[21:12:05] [main/INFO]: Connectivity initialized
+[21:12:05] [main/INFO]: Loaded config for: cupboard.json
+[21:12:05] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[21:12:05] [main/INFO]: Successfully Debugify'd your game!
+[21:12:05] [main/INFO]: Loaded config dummmmmmy-common.json
+[21:12:06] [main/INFO]: Constructing common components for easyanvils:main
+[21:12:06] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[21:12:06] [main/INFO]: Constructing common components for easymagic:main
+[21:12:06] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[21:12:06] [main/INFO]: Constructing common components for easyshulkerboxes:main
+[21:12:06] [main/INFO]: ExpandAbility here, who dis?
+[21:12:06] [main/ERROR]: No data fixer registered for handcrafted
+[21:12:06] [main/INFO]: Constructing common components for iteminteractions:main
+[21:12:07] [main/INFO]: Initializing ServerSide Packet Registries
+[21:12:07] [main/INFO]: Definitely not up to no good
+[21:12:07] [main/INFO]: Loading Noisium.
+[21:12:07] [main/INFO]: [STDOUT]: All 10 have been set properly
+[21:12:07] [main/INFO]: glisco: I like this approach, cause it's stateless. And stateless approaches are always good since state management is pain - BasiqueEvangelist: I like french bread
+[21:12:07] [main/INFO]: Constructing common components for puzzleslib:main
+[21:12:07] [main/INFO]: [STDOUT]: [SittingPlus] Initializing server-side networking
+[21:12:07] [main/INFO]: Loaded config supplementaries-common.json
+[21:12:08] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:08] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[21:12:08] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:08] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:08] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:08] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[21:12:08] [main/INFO]: Initialized block sets in 23ms
+[21:12:08] [main/ERROR]: No data fixer registered for falling_lantern
+[21:12:08] [main/ERROR]: No data fixer registered for target_dummy
+[21:12:08] [main/ERROR]: No data fixer registered for dispenser_minecart
+[21:12:08] [main/ERROR]: No data fixer registered for falling_urn
+[21:12:08] [main/ERROR]: No data fixer registered for falling_ash
+[21:12:08] [main/ERROR]: No data fixer registered for falling_sack
+[21:12:08] [main/ERROR]: No data fixer registered for brick_projectile
+[21:12:08] [main/ERROR]: No data fixer registered for slimeball_projectile
+[21:12:08] [main/ERROR]: No data fixer registered for bomb
+[21:12:08] [main/ERROR]: No data fixer registered for cannonball
+[21:12:08] [main/ERROR]: No data fixer registered for rope_arrow
+[21:12:08] [main/ERROR]: No data fixer registered for slingshot_projectile
+[21:12:09] [main/INFO]: Loaded config sawmill-common.json
+[21:12:09] [main/INFO]: Initialized color sets in 51ms
+[21:12:09] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 55, 5, 1] ms
+[21:12:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:12:09] [main/INFO]: Generated runtime SERVER_DATA for pack sawmill:sawmill_recipes (Sawmill) in: 0 ms (debug resource dump on)
+[21:12:09] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 50 ms
+[21:12:09] [main/INFO]: Generated runtime SERVER_DATA for pack suppsquared:generated_pack (Suppsquared) in: 24 ms
+[21:12:11] [main/INFO]: Loaded config for: connectivity.json
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_green - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_pink - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_black - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_blue - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_brown - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_yellow - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:11] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_lime - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_cyan - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_red - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_white - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_orange - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_purple - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_magenta - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/suppsquared:blocks/sack_light_gray - Failed to parse either. First: No key component in MapLike[{"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}]; Second: Not a json array: {"function":"minecraft:set_contents","type":"minecraft:shulker_box","entries":[{"type":"minecraft:dynamic","name":"minecraft:contents"}]}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:loot_function_type]: minecraft:copy_nbt; Second: Not a json array: {"function":"minecraft:copy_nbt","source":"block_entity","ops":[{"source":"Lock","target":"BlockEntityTag.Lock","op":"replace"},{"source":"LootTable","target":"BlockEntityTag.LootTable","op":"replace"},{"source":"LootTableSeed","target":"BlockEntityTag.LootTableSeed","op":"replace"}]}
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/quiver] to [accessories:trinket_group_legs-quiver]: 
      [supplementaries:quiver (from supplementaries)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/belt] to [accessories:belt]: 
      [#artifacts:slot/belt (from artifacts)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:offhand/glove] to [accessories:hand]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:hand/glove] to [accessories:hand]: 
      [#artifacts:slot/hands (from artifacts)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:head/hat] to [accessories:hat]: 
      [#artifacts:slot/head (from artifacts)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:legs/key] to [accessories:trinket_group_legs-key]: 
      [supplementaries:key (from supplementaries), suppsquared:heavy_key? (from supplementaries)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:feet/shoes] to [accessories:shoes]: 
      [#artifacts:slot/feet (from artifacts)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [accessories:back] to [trinkets:chest/back]: 
      [backpacked:backpack (from backpacked)]
-[17:51:18] [Worker-Main-1/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
+[21:12:13] [Worker-Main-1/WARN]: Adding Entries from [trinkets:chest/necklace] to [accessories:necklace]: 
      [#artifacts:slot/necklace (from artifacts)]
-[17:51:18] [main/INFO]: Intercepted tag results
-[17:51:18] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
-[17:51:19] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
+[21:12:13] [main/INFO]: Intercepted tag results
+[21:12:13] [main/ERROR]: Failed to parse resource conditions for file of type recipe with id suppsquared:candle_holders/gold_candle_holder_soul, skipping: Unknown resource condition key: forge:mod_loaded
+[21:12:13] [main/ERROR]: Parsing error loading recipe suppsquared:candle_holders/gold_candle_holder_soul
 com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: suppsquared:gold_candle_holder_soul; Map entry '1' : Failed to parse either. First: Input does not contain a key [fabric:type]: MapLike[{"item":"buzzier_bees:soul_candle"}]; Second: Failed to parse either. First: Not a json array: {"item":"buzzier_bees:soul_candle"}; Second: No key tag in MapLike[{"item":"buzzier_bees:soul_candle"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: buzzier_bees:soul_candle
-	at knot/com.mojang.serialization.DataResult$Error.md03eceb$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Error.md45eae1$owo$lambda$addStackTraceToException$0$0(DataResult.java:565) ~[datafixerupper-8.0.16.jar:?]
 	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
 	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
@@ -392,453 +398,88 @@ com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraf
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[17:51:19] [main/INFO]: Generating Sawmill Recipes
-[17:51:19] [main/INFO]: Generated Sawmill recipes in 180 milliseconds
-[17:51:19] [main/INFO]: Loaded 3136 recipes
-[17:51:19] [main/INFO]: Loaded 2202 advancements
-[17:51:19] [main/INFO]: Applied 20 data villager trades
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
-[17:51:19] [main/INFO]: Loaded 27 flute songs
-[17:51:19] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
-[17:51:19] [main/INFO]: Registering custom dispenser behaviors
-[17:51:20] [main/INFO]: Applied 778 biome modifications to 64 of 64 new biomes in 46.09 ms
-[17:51:20] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[17:51:20] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[17:51:20] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[17:51:20] [Server thread/INFO]: Loading server configs...
-[17:51:20] [Server thread/INFO]: Injecting Carpenter Village Houses
-[17:51:20] [Server thread/INFO]: Starting background profiler...
-[17:51:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:51:20] [Server thread/INFO]: Loading properties
-[17:51:20] [Server thread/INFO]: Default game type: SURVIVAL
-[17:51:20] [Server thread/INFO]: Generating keypair
-[17:51:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:51:20] [Server thread/INFO]: Using epoll channel type
-[17:51:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:51:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:51:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:51:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:51:20] [Server thread/INFO]: Preparing level "world"
-[17:51:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:51:21] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[17:51:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:51:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[17:51:22] [Server thread/INFO]: Time elapsed: 976 ms
-[17:51:22] [Server thread/INFO]: Done (1.716s)! For help, type "help"
-[17:51:22] [Server thread/WARN]: Dedicated server took 33.246 seconds to load
-[17:51:22] [Server thread/INFO]: Loaded config for: smoothchunk.json
-[17:51:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[17:51:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[17:51:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[17:51:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[17:51:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[17:51:22] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[17:51:22] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[17:51:22] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[17:51:22] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@7452ab33 for service interface journeymap.api.services.ClientPlatformService
-[17:51:22] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@a8bd023 for service interface journeymap.api.services.CommonPlatformService
-[17:51:22] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.32": journeymap.server.global.config
-[17:51:22] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
-[17:51:22] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.32": journeymap.server.default.config
-[17:51:22] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
-[17:51:22] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[17:51:22] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[17:51:22] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
-[17:51:36] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[17:51:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14054ms or 281 ticks behind
-[17:52:27] [Server thread/INFO]: Coffeent[/127.225.150.143:33949] logged in with entity id 4 at (981.0991725452702, 63.0, -1901.941595159268)
-[17:52:27] [Server thread/INFO]: Sending server config values to client
-[17:52:27] [Server thread/INFO]: Coffeent joined the game
-[17:52:31] [Server thread/INFO]: Receiving client config
-[17:52:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
-[17:54:05] [Server thread/INFO]: Nothing changed. The player already is an operator
-[18:04:22] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:23] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:24] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:24] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:25] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:42] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:43] [Netty Epoll Server IO #3/WARN]: Packet:net.minecraft.class_2889  id serverbound/minecraft:intention larger than expected error detected, printing packet and buffer. Stacktrace gets logged after this
-[18:04:43] [Netty Epoll Server IO #3/WARN]: Packet data:
-"class_2889[protocolVersion=1, hostName=\u0003\u0003\u001a#������\u001a\t[QK��, port=61987, intention=TRANSFER]"
-[18:04:43] [Netty Epoll Server IO #3/WARN]: Packet:io.netty.buffer.PooledUnsafeDirectByteBuf  id serverbound/minecraft:intention data of 98 extra bytes: 
-[18:04:43] [Netty Epoll Server IO #3/WARN]: Packet data:
-[
-  "PN/a0 ;g%6f /97'42+/,0/5#'<"
-]
-[18:04:43] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:04:44] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: Received unknown packet id 3
-	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.redirect$bdh000$connectivity$checkDecodingError(class_2543.java:572) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:05:12] [Server thread/INFO]: Coffeent was slain by Spider
-[18:23:51] [Server thread/INFO]: Coffeent lost connection: Disconnected
-[18:23:51] [Server thread/INFO]: Coffeent left the game
+[21:12:13] [main/INFO]: Generating Sawmill Recipes
+[21:12:13] [main/INFO]: Generated Sawmill recipes in 128 milliseconds
+[21:12:13] [main/INFO]: Loaded 3136 recipes
+[21:12:14] [main/INFO]: Loaded 2202 advancements
+[21:12:14] [main/INFO]: Applied 20 data villager trades
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_cold - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_snowy_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_toolsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/pillager_outpost - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_tannery - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:soy_from_zombie_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:soy_from_zombie
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city_ice_box - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_hoglin_stable - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/cow - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ancient_city - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_plains_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/ruined_portal - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/underwater_ruin_big - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_weaponsmith - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/igloo_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_desert_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/buried_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/spawn_bonus_chest - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/desert_pyramid - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_taiga_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/desert_well - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/shipwreck_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/jungle_temple - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/stronghold_corridor - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/abandoned_mineshaft - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_butcher - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id doggytalents:rice_from_grass_modifier - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: doggytalents:rice_from_grass
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_savanna_house - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/ocean_ruin_warm - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/village/village_armorer - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/archaeology/trail_ruins_rare - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/entities/mooshroom - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/WARN]: Could not decode GlobalLootModifier with json id artifacts:inject/chests/simple_dungeon - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: artifacts:roll_loot_table
+[21:12:14] [main/INFO]: Loaded 27 flute songs
+[21:12:14] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/brass, c:ingots/lead, c:storage_blocks/lead
+[21:12:14] [main/INFO]: Registering custom dispenser behaviors
+[21:12:14] [main/INFO]: Applied 778 biome modifications to 64 of 64 new biomes in 53.89 ms
+[21:12:14] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[21:12:14] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[21:12:14] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[21:12:14] [Server thread/INFO]: Loading server configs...
+[21:12:14] [Server thread/INFO]: Injecting Carpenter Village Houses
+[21:12:14] [Server thread/INFO]: Starting background profiler...
+[21:12:15] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[21:12:15] [Server thread/INFO]: Loading properties
+[21:12:15] [Server thread/INFO]: Default game type: SURVIVAL
+[21:12:15] [Server thread/INFO]: Generating keypair
+[21:12:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:12:15] [Server thread/INFO]: Using epoll channel type
+[21:12:15] [Server thread/INFO]: Preparing level "world"
+[21:12:16] [Server thread/INFO]: Loaded config for: betterchunkloading.json
+[21:12:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:12:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:12:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:12:17] [Server thread/INFO]: Time elapsed: 989 ms
+[21:12:17] [Server thread/INFO]: Done (1.561s)! For help, type "help"
+[21:12:17] [Server thread/WARN]: Dedicated server took 30.336 seconds to load
+[21:12:17] [Server thread/INFO]: Loaded config for: smoothchunk.json
+[21:12:17] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[21:12:17] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[21:12:17] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[21:12:17] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[21:12:17] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[21:12:17] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[21:12:17] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[21:12:17] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[21:12:17] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@71838e5 for service interface journeymap.api.services.ClientPlatformService
+[21:12:17] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@101f2310 for service interface journeymap.api.services.CommonPlatformService
+[21:12:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15167ms or 303 ticks behind
